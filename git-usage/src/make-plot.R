@@ -1,6 +1,6 @@
 library(ggplot2)
 
-sods_data <- read.csv("stackoverflow-git-data.csv")
+sods_data <- read.csv(data/"stackoverflow-git-data.csv")
 
 g <- ggplot(
   data = sods_data,
